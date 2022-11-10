@@ -158,15 +158,18 @@ P_ngcer_yAtCer = e_tree.array("P.ngcer.yAtCer")                  #
 #H_hod_1x_TrackYPos = e_tree.array("H.hod.1x.TrackYPos")
 #H_hod_1x_ScinXPos = e_tree.array("H.hod.1x.ScinXPos")
 #H_hod_1x_ScinYPos = e_tree.array("H.hod.1x.ScinYPos")
+#P_dc_1u1_time = e_tree.array("P.dc.1u1.time")
+
 #Histarrays = data.arrays(["H.hod.1x.TrackXPos", "H.hod.1x.TrackYPos", "H.hod.1x.ScinXPos", "H.hod.1x.ScinYPos"], library="np")
 #H_hod_1x_TrackXpos = Histarrays["H.hod.1x.TrackXPos"]
+
 #np.savetxt("H_hod_1x_TrackXpos.txt", H_hod_1x_TrackXpos)
 #np.savetxt("H_hod_1x_TrackYPos.txt", H_hod_1x_TrackYPos)
 #np.savetxt("H_hod_1x_ScinXPos.txt", H_hod_1x_ScinXPos)
 #np.savetxt("H_hod_1x_ScinYPos.txt", H_hod_1x_ScinYPos)
-P_dc_1u1_time = e_tree.array("P.dc.1u1.time")
-np.savetxt("P_dc_1u1_time.txt", P_dc_1u1_time)
+#np.savetxt("P_dc_1u1_time.txt", P_dc_1u1_time)
 
+np.savetxt("P_gtr_xptar.txt", P_gtr_xptar)
 
 
 # Kinematic quantitites
