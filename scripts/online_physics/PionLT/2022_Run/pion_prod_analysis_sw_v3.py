@@ -153,6 +153,20 @@ P_ngcer_npeSum = e_tree.array("P.ngcer.npeSum")                  #
 P_ngcer_xAtCer = e_tree.array("P.ngcer.xAtCer")                  #
 P_ngcer_yAtCer = e_tree.array("P.ngcer.yAtCer")                  #
 
+#Specific Data (Eli)
+H_hod_1x_TrackXpos = e_tree.array("H.hod.1x.TrackXPos")
+H_hod_1x_TrackYPos = e_tree.array("H.hod.1x.TrackYPos")
+H_hod_1x_ScinXPos = e_tree.array("H.hod.1x.ScinXPos")
+H_hod_1x_ScinYPos = e_tree.array("H.hod.1x.ScinYPos")
+#Histarrays = data.arrays(["H.hod.1x.TrackXPos", "H.hod.1x.TrackYPos", "H.hod.1x.ScinXPos", "H.hod.1x.ScinYPos"], library="np")
+#H_hod_1x_TrackXpos = Histarrays["H.hod.1x.TrackXPos"]
+np.savetxt("H_hod_1x_TrackXpos.txt", H_hod_1x_TrackXpos)
+np.savetxt("H_hod_1x_TrackYPos.txt", H_hod_1x_TrackYPos)
+np.savetxt("H_hod_1x_ScinXPos.txt", H_hod_1x_ScinXPos)
+np.savetxt("H_hod_1x_ScinYPos.txt", H_hod_1x_ScinYPos)
+
+# H.dc.1u*
+
 # Kinematic quantitites
 Q2 = e_tree.array("H.kin.primary.Q2")                            #
 W = e_tree.array("H.kin.primary.W")                              #
