@@ -59,7 +59,7 @@ block H.hod.1x.ScinXPos
 block H.hod.1x.ScinYPos
 block P.dc.1u*
 block H.hod.1y.ScinXPos
-block H.hod.1y.ScinYPos	
+block H.hod.1y.ScinYPos
 block H.hod.1y.TrackXPos
 block H.hod.1y.TrackYPos
 
