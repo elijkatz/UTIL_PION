@@ -161,9 +161,10 @@ H_hod_1x_ScinYPos = e_tree.array("H.hod.1x.ScinYPos")
 P_dc_1u1_time = e_tree.array("P.dc.1u1.time")
 P_dc_1u1_dist =  e_tree.array("P.dc.1u1.dist")
 P_dc_1u1_nhit = e_tree.array("P.dc.1u1.nhit")
-
-#Histarrays = data.arrays(["H.hod.1x.TrackXPos", "H.hod.1x.TrackYPos", "H.hod.1x.ScinXPos", "H.hod.1x.ScinYPos"], library="np")
-#H_hod_1x_TrackXpos = Histarrays["H.hod.1x.TrackXPos"]
+H_hod_1y_ScinXPos = e_tree.array("H.hod.1y.ScinXPos")
+H_hod_1y_ScinYPos = e_tree.array("H.hod.1y.ScinYPos")
+H_hod_1y_TrackXPos = e_tree.array("H.hod.1y.TrackXPos")
+H_hod_1y_TrackYPos = e_tree.array("H.hod.1y.TrackYPos")
 
 np.savetxt("H_hod_1x_TrackXpos.txt", H_hod_1x_TrackXpos)
 np.savetxt("H_hod_1x_TrackYPos.txt", H_hod_1x_TrackYPos)
@@ -172,6 +173,10 @@ np.savetxt("H_hod_1x_ScinYPos.txt", H_hod_1x_ScinYPos)
 np.savetxt("P_dc_1u1_time.txt", P_dc_1u1_time)
 np.savetxt("P_dc_1u1_dist.txt", P_dc_1u1_dist)
 np.savetxt("P_dc_1u1_nhit.txt", P_dc_1u1_nhit)
+np.savetxt("H_hod_1y_ScinXPos.txt", H_hod_1y_ScinXPos)
+np.savetxt("H_hod_1y_ScinYPos.txt", H_hod_1y_ScinYPos)
+np.savetxt("H_hod_1y_TrackXPos.txt", H_hod_1y_TrackXPos)
+np.savetxt("H_hod_1y_TrackYPos.txt", H_hod_1y_TrackYPos)
 
 # Kinematic quantitites
 Q2 = e_tree.array("H.kin.primary.Q2")                            #
