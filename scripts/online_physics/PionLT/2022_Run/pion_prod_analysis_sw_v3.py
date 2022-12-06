@@ -181,7 +181,8 @@ np.savetxt("H_hod_1y_ScinYPos.txt", H_hod_1y_ScinYPos)
 np.savetxt("H_hod_1y_TrackXPos.txt", H_hod_1y_TrackXPos)
 np.savetxt("H_hod_1y_TrackYPos.txt", H_hod_1y_TrackYPos)
 np.savetxt("H_gtr_dp.txt", H_gtr_dp)
-
+np.savetxt("H_cal_etotnorm.txt", H_cal_etotnorm)
+np.savetxt("H_cal_etottracknorm.txt", H_cal_etottracknorm)
 
 
 # Kinematic quantitites
