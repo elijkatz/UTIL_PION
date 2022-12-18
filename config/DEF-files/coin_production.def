@@ -59,6 +59,7 @@ block H.hod.1x.ScinXPos
 block H.hod.1x.ScinYPos
 block P.dc.1u*
 block H.hod.1y*
+block H.cer.*
 
 # For debugging cherenkovs, all variables for them are included for now
 block P.ngcer.*
