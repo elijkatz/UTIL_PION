@@ -12,6 +12,7 @@ block H.hod.goodscinhit
 block H.hod.goodstarttime
 block H.cer.npeSum
 block P.cal.etotnorm
+block P.cal.etracknorm
 block P.cal.etottracknorm
 block P.cal.fly.earray
 block P.cal.fly.goodAdcPulseInt
