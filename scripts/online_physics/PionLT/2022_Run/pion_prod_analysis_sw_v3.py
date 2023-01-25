@@ -166,6 +166,9 @@ H_hod_1y_ScinYPos = e_tree.array("H.hod.1y.ScinYPos")
 H_hod_1y_TrackXPos = e_tree.array("H.hod.1y.TrackXPos")
 H_hod_1y_TrackYPos = e_tree.array("H.hod.1y.TrackYPos")
 
+P_cal_etracknorm = e_tree.array("P.cal.etracknorm")
+
+
 np.savetxt("H_hod_1x_TrackXpos.txt", H_hod_1x_TrackXpos)
 np.savetxt("H_hod_1x_TrackYPos.txt", H_hod_1x_TrackYPos)
 np.savetxt("H_hod_1x_ScinXPos.txt", H_hod_1x_ScinXPos)
@@ -180,6 +183,12 @@ np.savetxt("H_hod_1y_TrackYPos.txt", H_hod_1y_TrackYPos)
 np.savetxt("H_gtr_dp.txt", H_gtr_dp)
 np.savetxt("H_cal_etotnorm.txt", H_cal_etotnorm)
 np.savetxt("H_cal_etottracknorm.txt", H_cal_etottracknorm)
+
+np.savetxt("P_gtr_dp.txt", P_gtr_dp)
+np.savetxt("P_gtr_p.txt", P_gtr_p)
+np.savetxt("P_cal_etotnorm.txt", P_cal_etotnorm)
+np.savetxt("P_cal_etottracknorm.txt", P_cal_etottracknorm)
+np.savetxt("P_cal_etracknorm.txt", P_cal_etracknorm)
 
 
 # Kinematic quantitites
